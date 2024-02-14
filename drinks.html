@@ -32,21 +32,7 @@
       </div>
     </div>
   </nav>
-  <form>
-    <div class="form-group">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    </div>
-    <div class="form-group">
-        <label for="Drink" class="form-label">Enter your drink</label>
-        <input type="text" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+  
 <h1>Have a cup with Katragadda Brunda</h1>
 <div class="container">
     <div class="row">
@@ -68,11 +54,19 @@
     <p>The drinks will break first because we have used col-md for drinks which require more pixels</p>
 </div>
 <div class="container">
+  <h3>Normal Images</h3>
+  <img src="apple.webp"  alt="AppleJuice" width="25%">
+  <img src="kiwi.jpg"  alt="kiwiSmoothie" width="36%">
+  <img src="guava.webp"  alt="GuavaJuice" width="25%">
+</div>
+<div class="container">
+  <h3>Thumbnail Images</h3>
   <img src="apple.webp" class="img-thumbnail" alt="AppleJuice" width="25%">
   <img src="kiwi.jpg" class="img-thumbnail" alt="kiwiSmoothie" width="36%">
   <img src="guava.webp" class="img-thumbnail" alt="GuavaJuice" width="25%">
 </div>
 <table class="table table-strip table-hover">
+  <caption class="caption-top">Beverages</caption>
   <thead>
     <tr class="table-danger">
       <th>Letter</th>
@@ -121,6 +115,7 @@
     
   </tbody>
 </table>
+      
 <div class="btn-toolbar">
   <div class="btn-group">
       <button type="button" class="btn btn-success">K</button>
@@ -145,6 +140,45 @@
     <li><a class="dropdown-item" href="advance.html">Advance page</a></li>
     
   </ul>
+</div>
+<form>
+  <div class="form-group">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="form-group">
+      <label for="Drink" class="form-label">Enter your drink</label>
+      <input type="text" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+  <div class="card" style="width: 18rem;">
+    <div class="card-group">
+    <img src="apple.webp" class="card-img-top" alt="apple">
+    <div class="card-body">
+      <h5 class="card-title">AppleJuice</h5>
+      <p class="card-text"> An apple a day keeps doctor away</p>
+      <a href="apple.webp" class="btn btn-primary">Apple</a>
+    </div>
+    <img src="kiwi.jpg" class="card-img-top" alt="kiwi">
+    <div class="card-body">
+      <h5 class="card-title">Kiwi</h5>
+      <p class="card-text"> kiwiSmoothie is good for hair growth</p>
+      <a href="kiwi.jpg" class="btn btn-primary">Kiwi</a>
+    </div>
+    <img src="guava.webp" class="card-img-top" alt="guvva">
+    <div class="card-body">
+      <h5 class="card-title">GuavaJuice</h5>
+      <p class="card-text">GuavaJuice will be tasty</p>
+      <a href="guava.webp" class="btn btn-primary">Guava</a>
+    </div>
+  </div>
+  </div> 
 </div>
 </body>
 </html>
